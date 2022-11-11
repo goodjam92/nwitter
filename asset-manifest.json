@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/https//goodjam92.github.io/nwitter/static/css/main.e5d80d1c.css",
+    "main.js": "/https//goodjam92.github.io/nwitter/static/js/main.9ba8bce7.js",
+    "static/media/logo192.png": "/https//goodjam92.github.io/nwitter/static/media/logo192.af1ef73f3c0622ec5a09.png",
+    "index.html": "/https//goodjam92.github.io/nwitter/index.html",
+    "main.e5d80d1c.css.map": "/https//goodjam92.github.io/nwitter/static/css/main.e5d80d1c.css.map",
+    "main.9ba8bce7.js.map": "/https//goodjam92.github.io/nwitter/static/js/main.9ba8bce7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5d80d1c.css",
+    "static/js/main.9ba8bce7.js"
+  ]
+}
