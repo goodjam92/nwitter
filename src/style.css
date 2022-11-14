@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+body {
+  background-color: black;
+  font-size: 14px;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
+
+form {
+  width: 100%;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Auth screen */
+
+.appLogo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  animation: rotateLogo 10s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.authContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+.authForm input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.authInput {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: black;
+}
+
+.authSubmit {
+  background-color: rgb(12, 149, 203);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.signInAndJoin {
+  width: 300px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+
+.authSubmit:hover,
+.authBtn:hover,
+.signInAndJoin:hover {
+  cursor: pointer;
+}
+
+.authBtns {
+  margin-top: 50px;
+  height: 30px;
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.authBtn {
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Home CSS */
+
+.homeContainer {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.homeForm {
+}
